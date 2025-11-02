@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
+  "start": "node server.js -h localhost -p 3000 -c cache",
+  "dev": "nodemon server.js -h localhost -p 3000 -c cache"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
